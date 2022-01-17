@@ -11,7 +11,7 @@ df_heart.describe()
 df_heart = pd.get_dummies(df_heart, columns = ['famhist'], drop_first=True)
 
 # Set random seed
-seed = 4578
+seed = 8833
 
 # Split into train and test sections
 y = df_heart.pop('chd')
